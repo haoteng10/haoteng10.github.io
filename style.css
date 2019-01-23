@@ -1,0 +1,65 @@
+body {
+    background-color: darkgrey;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+.about-me p {
+    color: white;
+}
+
+.about-me {
+    background-color: cornflowerblue;
+}
+
+.Minecraft{
+    background-color: darkorange;
+    color: white;
+}
+
+.Web-Development {
+    background-color: teal;
+    color: white;
+}
+
+.display-grid {
+    display: grid;
+}
+
+.seven-five-margin {
+    margin: 7.5%;
+}
+
+#in-development {
+    margin: 2%;
+    margin-left: 7.5%;
+}
+
+.language {
+    color: deepskyblue;
+}
+
+.fa-github, .fa-at {
+    font-size: 3em;
+    color: dodgerblue;
+}
+
+.fa-github:hover, .fa-at:hover {
+    color: white;
+}
+
+i {
+    padding: 15%;
+}
+
+.footer-icons, .footer-contacts {
+    margin: 1.5%;
+}
+
+.made-by-me {
+    color: white;
+    font-size: 1.25em;
+}
+
