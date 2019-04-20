@@ -2,7 +2,7 @@ body {
     background-color: darkgrey;
 }
 
-h1 {
+#name {
     color: goldenrod;
 }
 
@@ -63,3 +63,6 @@ i {
     font-size: 1.25em;
 }
 
+.btn-outline-info {
+    background-color: white;
+}
