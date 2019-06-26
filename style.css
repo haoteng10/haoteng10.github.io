@@ -52,12 +52,12 @@ html, body {
     transition: 1s;
 }
 
-.display-grid:hover .slider, .display-grid:active .slider {
+.display-grid:hover .slider {
     transition: 1s;
     left: 0;
 }
 
-.display-grid:hover .content-container, .display-grid:active .content-container {
+.display-grid:hover .content-container {
     transition: 1s;
     left: 400px;
 }
