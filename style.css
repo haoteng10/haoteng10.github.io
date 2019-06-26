@@ -52,12 +52,21 @@ html, body {
     transition: 1s;
 }
 
-.display-grid:hover .slider {
+.display-grid:hover {
+    transition: 0.5s;
+    border-left: 20px solid yellowgreen;
+}
+
+.display-grid:active {
+    border-left: 0;
+}
+
+.display-grid:active .slider {
     transition: 1s;
     left: 0;
 }
 
-.display-grid:hover .content-container {
+.display-grid:active .content-container {
     transition: 1s;
     left: 400px;
 }
