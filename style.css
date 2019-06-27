@@ -68,6 +68,10 @@ html, body {
     left: 400px;
 }
 
+.display-grid-active {
+    border: 0 !important;
+}
+
 .display-grid:hover {
     transition: 0.5s;
     border-left: 20px solid yellowgreen;
