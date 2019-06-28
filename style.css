@@ -29,6 +29,10 @@ html, body {
     color: white;
 }
 
+#my-experience-text {
+    color: peru;
+}
+
 .transform {
     -webkit-transition: all 2s ease;  
     -moz-transition: all 2s ease;  
