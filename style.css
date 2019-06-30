@@ -45,13 +45,14 @@ html, body {
     margin: 7.5%;
     position: absolute;
     left: 0;
+    transition: all 2s ease;
 }
 
 .display-grid {
     display: grid;
     position: relative;
     overflow: hidden;
-    height: 400px; 
+    height: 400px;
 }
 
 .slider {
@@ -60,6 +61,7 @@ html, body {
     width: 400px;
     height: 400px;
     background: slategray;
+    transition: all 2s ease;
 }
 
 .slider-active {
