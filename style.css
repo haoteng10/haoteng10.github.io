@@ -30,7 +30,9 @@ html, body {
 }
 
 #my-experience-text {
-    color: peru;
+    color: dodgerblue;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .transform {

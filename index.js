@@ -12,7 +12,7 @@ function animation(index) {
     setTimeout(function(){
         selectedDisplayGrid.classList.remove('display-grid-active');
         console.log("executed!");
-    }, 4000); 
+    }, 6000); 
     
     var selectedContentContainer = selectedDisplayGrid.getElementsByClassName("content-container")[0];
     selectedContentContainer.classList.add('content-container-active');
