@@ -16,12 +16,8 @@ html, body {
 }
 
 #about-me {
-<<<<<<< HEAD
     background-color: #0a61bf;
     /* background-color: #02a0cc; */
-=======
-    background-color: cornflowerblue;
->>>>>>> 8c985c872729e85afd814555670ba025de490eea
 }
 
 .Minecraft{
@@ -35,11 +31,7 @@ html, body {
 }
 
 .python-development{
-<<<<<<< HEAD
     background-color: #02a0cc;
-=======
-    background-color: #0a61bf;
->>>>>>> 8c985c872729e85afd814555670ba025de490eea
     color:white;
 }
 
@@ -137,7 +129,6 @@ i {
 .btn-outline-info {
     background-color: white;
 }
-<<<<<<< HEAD
 
 .image-align {
     margin: 0 auto;
@@ -150,5 +141,3 @@ i {
     align-items: center;
     background-color: #00a2ff;
 }
-=======
->>>>>>> 8c985c872729e85afd814555670ba025de490eea
