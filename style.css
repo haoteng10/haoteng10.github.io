@@ -1,0 +1,143 @@
+html, body {
+    background-color: darkgrey;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#name {
+    color: goldenrod;
+}
+
+#about-me p {
+    color: white;
+}
+
+#about-me {
+    background-color: #0a61bf;
+    /* background-color: #02a0cc; */
+}
+
+.Minecraft{
+    background-color: darkorange;
+    color: white;
+}
+
+.Web-Development {
+    background-color: teal;
+    color: white;
+}
+
+.python-development{
+    background-color: #02a0cc;
+    color:white;
+}
+
+#my-experience-text {
+    color: dodgerblue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.transform {
+    -webkit-transition: all 2s ease;  
+    -moz-transition: all 2s ease;  
+    -o-transition: all 2s ease;  
+    -ms-transition: all 2s ease;  
+    transition: all 2s ease;
+  }
+
+.content-container {
+    margin: 7.5%;
+    position: absolute;
+    left: 0;
+    transition: all 2s ease;
+}
+
+.display-grid {
+    display: grid;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+
+.slider {
+    position: absolute;
+    left: -400px;
+    width: 400px;
+    height: 400px;
+    background: slategray;
+    transition: all 2s ease;
+}
+
+.slider-active {
+    transition: all 2s ease;
+    left: 0;
+}
+
+.content-container-active {
+    transition: all 2s ease;
+    left: 400px;
+}
+
+.display-grid-active {
+    border: 0 !important;
+}
+
+.display-grid:hover {
+    transition: 0.5s;
+    border-left: 20px solid yellowgreen;
+}
+
+.seven-five-margin {
+    margin: 7.5%;
+}
+
+#in-development {
+    margin: 2%;
+    margin-left: 7.5%;
+}
+
+.language {
+    color: deepskyblue;
+}
+
+.fa-github, .fa-at {
+    font-size: 3em;
+    color: dodgerblue;
+}
+
+.fa-github:hover, .fa-at:hover {
+    color: white;
+}
+
+i {
+    padding: 15%;
+}
+
+.footer-icons, .footer-contacts {
+    margin: 1.5%;
+}
+
+.made-by-me {
+    color: white;
+    font-size: 1.25em;
+}
+
+.btn-outline-info {
+    background-color: white;
+}
+
+.image-align {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+  }
+
+.image-container {
+    display: flex;
+    align-items: center;
+    background-color: #00a2ff;
+}
