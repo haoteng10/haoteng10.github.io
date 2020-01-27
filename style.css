@@ -29,6 +29,11 @@ html, body {
     color: white;
 }
 
+.python-development{
+    background-color: #0a61bf;
+    color:white;
+}
+
 #my-experience-text {
     color: dodgerblue;
     font-style: italic;
