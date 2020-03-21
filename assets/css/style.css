@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+
 html, body {
     background-color: darkgrey;
     width: 100%;
@@ -60,15 +62,15 @@ html, body {
 .display-grid {
     display: grid;
     position: relative;
-    overflow: hidden;
-    height: 400px;
+    /* overflow: hidden; */
+    min-height: 450px;
 }
 
 .slider {
     position: absolute;
-    left: -400px;
-    width: 400px;
-    height: 400px;
+    left: -450px;
+    width: 450px;
+    height: 450px;
     background: slategray;
     transition: all 2s ease;
 }
@@ -80,7 +82,7 @@ html, body {
 
 .content-container-active {
     transition: all 2s ease;
-    left: 400px;
+    left: 450px;
 }
 
 .display-grid-active {
@@ -133,12 +135,35 @@ i {
 
 .image-align {
     margin: 0 auto;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
 
 .image-container {
     display: flex;
     align-items: center;
     background-color: #00a2ff;
+}
+
+.modal-content, .modal-body{
+    color: steelblue;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.inner-modal-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-modal-body a div h5 {
+    font-style: bold;
+    font-size: 2em;
+}
+
+.inner-modal-body > * {
+    margin-bottom: 5%;
+}
+
+i {
+    padding: 5px;
 }

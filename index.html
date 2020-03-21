@@ -15,41 +15,65 @@
     </head>
     <body>
 
-        <div class="alert alert-warning container" role="alert" id="in-development">
-            This website is still in development!
-            <!-- <a class="btn btn-outline-info" href="notification.html" style="margin-left: 2%;">More</a> -->
-        </div>
+        <!-- <div class="alert alert-warning container" role="alert" id="in-development">
+            This website is still in development.
+        </div> -->
 
-        <div id="about-me" class="display-grid" onclick="animation(0)">
+        <div id="about-me" class="display-grid">
             <div class="content-container">
                     <h1 id="name">Hao Teng</h1>
                     <p>A student in Brooklyn Technical High School. Have interests in Software Development, Computer Networking, and Artificial Intelligence.</p>
             </div>
 
             <div class="slider">
-                <img style="width: 400px; height: 400px;" src="https://langleyinsuranceagents.com/wp-content/uploads/2018/09/image-placeholder.png"></img>
+                <img style="width: 450px; height: 450px;" src="https://langleyinsuranceagents.com/wp-content/uploads/2018/09/image-placeholder.png"></img>
             </div>
         </div>
 
-        <div class="Web-Development display-grid" onclick="animation(1)">
+        <div class="Web-Development display-grid">
                 <div class="content-container">
                     <h2>Web Development</h2>
                     <p>Have experiences in full-stack web development.</p>
                     <div class="card text-primary bg-light mb-3">
                         <div class="card-body">
-                            <p class="card-text"><strong>Areas of study includes: <span class="language">HTML</span>, <span class="language">CSS</span>, <span class="language">Javascript</span>, <span class="language">Node.Js</span>.</strong></p>
+                            <p class="card-text"><strong>Areas of study includes: <span class="language">HTML</span>, <span class="language">CSS</span>, <span class="language">Javascript</span>, <span class="language">Node.Js</span>, <span class="language">React</span>.</strong></p>
                             <p id="my-experience-text" class="card-text">This website is made with expieriences in web development.</p>
                         </div>
                     </div>
+                    
+                    <h5>Examples:</h5>
 
-                    <!-- <div class="card" style="width: 100%;">
-                        <img src="assets/images/fishing-sites-1.PNG"card-img-top" alt="Demonstration">
-                        <div class="card-body">
-                          <h5 class="card-title">Fishing Sites</h5>
-                          <p class="card-text">A app that allows users to crowdsource any fishing spots. One of the features is the ability to let the user comment on the specific fishing site.</p>
-                          <a href="https://fishing.haoteng.xyz" class="btn btn-primary">Check it out!</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-warning text-dark open-modal" data-toggle="modal" data-target="#staticBackdrop">
+                        Fishing Sites
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Fishing Sites</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="inner-modal-body">
+                                        <strong style="color: #fcb103;">A crowdsourcing website for users to add fishing spots and review them.</strong>
+                                        <img src="./assets/images/fishing-sites-1.PNG" style="width: 100%; height: 100%;"></img>
+                                        <a class="btn btn-success d-flex justify-content-center" href="https://fishing.haoteng.xyz" target="_blank">
+                                            <div class="p-2"><h5>View</h5></div> 
+                                            <!-- <div class="p-2"><i class="fas fa-fish" style="font-size: 3em;"></i></div> -->
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary close-modal" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
                         </div>
-                      </div> -->
+                    </div>
 
                 </div>
 
@@ -58,7 +82,7 @@
                 </div>
         </div>
 
-        <div class="python-development display-grid" onclick="animation(2)">
+        <div class="python-development display-grid">
             <div class="content-container">
                 <h2>Artifical Intelligence</h2>
                 <p>Have experiences programming artifical intelligence and algorithms in Python. </p>
@@ -75,7 +99,7 @@
             </div>
         </div>
         
-        <div class="Minecraft display-grid" onclick="animation(3)">
+        <div class="Minecraft display-grid">
                 <div class="content-container">
                     <h2>Minecraft Plugins Development</h2>
                     <p>Have experiences in developing simple Minecraft plugins that will have its designed functions and features by interacting with the Spigot API.</p>

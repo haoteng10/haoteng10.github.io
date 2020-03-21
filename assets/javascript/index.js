@@ -1,8 +1,42 @@
+let openedModal = false;
+
+$('.open-modal').click(() => {
+    openedModal = true;
+});
+
+$('.close-modal').click(() => {
+    openedModal = false;
+});
+
+$('#about-me').click(() => {
+    animation(0);
+});
+
+$('.Web-Development').click(() => {
+    if (!openedModal){
+        animation(1);
+    }
+});
+
+$('.python-development').click(() => {
+    animation(2);
+});
+
+$('.Minecraft').click(() => {
+    animation(3);
+});
+
+
 function animation(index) {
-    var selectedDisplayGrid = document.getElementsByClassName("display-grid")[index];
+
+    if($('#staticBackdrop').is(':visible')){
+        return -1;
+    }
+
+    const selectedDisplayGrid = document.getElementsByClassName("display-grid")[index];
     
-    var selectedSlider = selectedDisplayGrid.getElementsByClassName("slider")[0];
-    var selectedContentContainer = selectedDisplayGrid.getElementsByClassName("content-container")[0];
+    const selectedSlider = selectedDisplayGrid.getElementsByClassName("slider")[0];
+    const selectedContentContainer = selectedDisplayGrid.getElementsByClassName("content-container")[0];
 
     selectedSlider.classList.add('slider-active');
     selectedDisplayGrid.classList.add('display-grid-active');
