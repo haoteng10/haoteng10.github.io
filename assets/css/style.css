@@ -28,6 +28,7 @@ html, body {
 .Web-Development {
     background-color: teal;
     color: white;
+    height: 700px !important;
 }
 
 .python-development{
