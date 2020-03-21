@@ -16,7 +16,8 @@ html, body {
 }
 
 #about-me {
-    background-color: cornflowerblue;
+    background-color: #0a61bf;
+    /* background-color: #02a0cc; */
 }
 
 .Minecraft{
@@ -30,7 +31,7 @@ html, body {
 }
 
 .python-development{
-    background-color: #0a61bf;
+    background-color: #02a0cc;
     color:white;
 }
 
@@ -127,4 +128,16 @@ i {
 
 .btn-outline-info {
     background-color: white;
+}
+
+.image-align {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+  }
+
+.image-container {
+    display: flex;
+    align-items: center;
+    background-color: #00a2ff;
 }
