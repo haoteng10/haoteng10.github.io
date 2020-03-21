@@ -26,10 +26,9 @@ $('.Minecraft').click(() => {
     animation(3);
 });
 
-
 function animation(index) {
 
-    if($('#staticBackdrop').is(':visible')){
+    if($('#fishing-site').is(':visible')){
         return -1;
     }
 
