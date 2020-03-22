@@ -28,7 +28,7 @@ $('.Minecraft').click(() => {
 
 function animation(index) {
 
-    if($('#fishing-site').is(':visible')){
+    if($('#fishing-site').is(':visible') || $('#track-my-time').is(':visible') ){
         return -1;
     }
 
