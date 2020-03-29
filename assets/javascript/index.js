@@ -9,7 +9,7 @@ $('.close-modal').click(() => {
 });
 
 $('#about-me').click(() => {
-    animation(0);
+    animation(0, false);
 });
 
 $('.Web-Development').click(() => {
@@ -23,10 +23,10 @@ $('.python-development').click(() => {
 });
 
 $('.Minecraft').click(() => {
-    animation(3);
+    animation(3, false);
 });
 
-function animation(index) {
+async function animation(index, wrap=true) {
 
     if($('#fishing-site').is(':visible') || $('#track-my-time').is(':visible')){
         return -1;
@@ -41,10 +41,13 @@ function animation(index) {
     selectedDisplayGrid.classList.add('display-grid-active');
     selectedContentContainer.classList.add('content-container-active');
 
+    if (wrap) selectedContentContainer.classList.add('no-wrap');
+
     setTimeout(function(){
         selectedSlider.classList.remove('slider-active');
         selectedContentContainer.classList.remove('content-container-active');
         setTimeout(function(){
+            if (wrap) selectedContentContainer.classList.remove('no-wrap');
             selectedDisplayGrid.classList.remove('display-grid-active');
         }, 2000); 
     }, 4000); 
