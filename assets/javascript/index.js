@@ -41,13 +41,13 @@ function animation(index, nowrap=true) {
     selectedDisplayGrid.classList.add('display-grid-active');
     selectedContentContainer.classList.add('content-container-active');
 
-    if (wrap) selectedContentContainer.classList.add('no-wrap');
+    if (nowrap) selectedContentContainer.classList.add('no-wrap');
 
     setTimeout(function(){
         selectedSlider.classList.remove('slider-active');
         selectedContentContainer.classList.remove('content-container-active');
         setTimeout(function(){
-            if (wrap) selectedContentContainer.classList.remove('no-wrap');
+            if (nowrap) selectedContentContainer.classList.remove('no-wrap');
             selectedDisplayGrid.classList.remove('display-grid-active');
         }, 2000); 
     }, 4000); 
