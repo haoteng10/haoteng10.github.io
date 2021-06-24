@@ -1,7 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
 
+@font-face {
+    font-family: 'Major Mono Display';
+    src: url('../fonts/Major_Mono_Display/MajorMonoDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    src: url('../fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf');
+}
+
+:root {
+    /* Style One */
+    --tea-green: #c6ebbeff;
+    --turquoise-green: #a9dbb8ff;
+    --pewter-blue: #7ca5b8ff;
+    --blue-pigment: #38369aff;
+    --phthalo-blue: #020887ff;
+}
+
 html, body {
-    background-color: darkgrey;
+    background-color: rgb(48, 47, 47);
+    font-family: 'Ubuntu Mono', monospace;
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -10,33 +30,35 @@ html, body {
 }
 
 #name {
-    color: goldenrod;
-}
-
-#about-me p {
-    color: white;
+    font-size: 6em;
+    color: rgb(255, 255, 255);
 }
 
 #about-me {
-    background-color: #0a61bf;
-    /* background-color: #02a0cc; */
-}
-
-.Minecraft{
-    background-color: darkorange;
+    background-color: var(--phthalo-blue);
     color: white;
 }
 
-.Web-Development {
-    background-color: teal;
+#about-me p {
+    font-size: 1.2em;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.web-development {
+    background-color: rgb(75, 9, 230);
     color: white;
-    /* height: 1000px !important; */
 }
 
 .python-development{
-    background-color: #02a0cc;
+    background-color: var(--blue-pigment);
     color:white;
 }
+
+.Minecraft{
+    background-color: rgb(75, 9, 230);
+    color: white;
+}
+
 
 #my-experience-text {
     color: dodgerblue;
