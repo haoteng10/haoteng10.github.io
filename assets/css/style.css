@@ -74,18 +74,18 @@ html, body {
     transition: all 2s ease;
   }
 
-.content-container {
-    margin: 7.5%;
-    position: absolute;
-    left: 0;
-    transition: all 2s ease;
-}
-
 .display-grid {
     display: grid;
     position: relative;
     overflow: hidden;
-    min-height: 450px;
+    height: 450px;
+}
+
+.content-container {
+    margin: auto 100px;
+    position: relative;
+    left: 0;
+    transition: all 2s ease;
 }
 
 .slider {
@@ -114,6 +114,10 @@ html, body {
 .display-grid:hover {
     transition: 0.5s;
     border-left: 20px solid yellowgreen;
+}
+
+.card {
+    width: fit-content;
 }
 
 .seven-five-margin {
@@ -193,4 +197,19 @@ i {
 .no-wrap {
     transition: all 2s ease;
     white-space: nowrap;
+}
+
+/* Screen Size */
+@media (max-width: 479px){
+    .content-container {
+        margin: auto 25px;
+        position: relative;
+        left: 0;
+        transition: all 2s ease;
+    }
+
+    .display-grid {
+        height: 500px;
+        margin: auto 0;
+    }
 }
