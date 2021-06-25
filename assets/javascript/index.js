@@ -12,7 +12,7 @@ $('#about-me').click(() => {
     animation(0, false);
 });
 
-$('.Web-Development').click(() => {
+$('.web-development').click(() => {
     if (!openedModal){
         animation(1);
     }
